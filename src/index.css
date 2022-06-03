@@ -1,0 +1,144 @@
+/* .user{
+    text-align: center;
+} */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.App {
+    margin-top: 100px;
+    width: auto;
+    font-family: 'Open Sans';
+}
+
+.fill-color {
+    fill: #2081C3;
+}
+
+/* .user-panel{
+    height: 64px;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    padding: 0px;
+} */
+.user-panel {
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+    height: 64px;
+    background-color: white;
+    box-shadow: 0 0 2px rgb(201, 201, 201);
+}
+
+.logo {
+    /* align-items: center; */
+    vertical-align: middle;
+    display: table-cell;
+    /* padding-right: 10px; */
+}
+
+.title {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.user-panel img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.user-title {
+    vertical-align: middle;
+    color: #4A4A4A;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 33%;
+    margin: 0 auto;
+    background-color: #F1F5F6;
+    /* padding: 0 16px 16px 16px; */
+}
+.wrapper {
+    /* width: 95%; */
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    box-shadow: 0 0 2px rgb(201, 201, 201);
+    /* padding-bottom: 16px; */
+    /* padding: 0 16px 16px 16px; */
+
+}
+
+.custom-pad{
+    padding-bottom: 16px;
+}
+
+.accordion {
+    /* height: 270px; */
+    /* padding: 16px; */
+}
+
+.accordion-summary {
+    /* height: 80px; */
+    /* padding-right: 100px; */
+}
+
+.accordion-details {
+    /* height: 80px; */
+    margin-left: 17%;
+}
+
+.user-summary {
+    /* padding: 16px; */
+}
+
+.user-logo {
+    vertical-align: middle;
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.user {
+    font-family: 'Open Sans';
+    vertical-align: middle;
+    display: table-cell;
+    
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4A4A4A;
+    margin: 2px;
+}
+
+.role {
+    margin: 2px;
+    color: #4A4A4A;
+    font-size: 10px;
+}
+
+.email {
+    margin: 2px;
+    color: #7E7E7E;
+    font-size: 10px;
+}
+
+.details {
+    margin-bottom: 10px;
+}
+
+.details label{
+    font-weight: bold;
+    font-size: 10px;
+    color: #4A4A4A;
+}
+
+.details p{
+    font-size: 10px;
+    color: #4A4A4A;
+    margin: 0px;
+}
