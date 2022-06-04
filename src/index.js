@@ -1,16 +1,12 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 import './index.css';
-import UserAccordion from './User';
+import Users from './users/User';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <UserAccordion />
-      </div>
-    )
-  }
-}
+const App = () => <div className="App">
+  <Users />
+</div>
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<App/>)
