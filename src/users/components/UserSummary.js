@@ -23,7 +23,7 @@ export default function UserSummary ({user}) {
         aria-controls="panel1a-content"
         id="panel1a-header">
         <div className='user-summary'>
-            <Grid container style={{width:  "250px"}}>
+            <Grid container style={{width:  "300px", height: "80px"}}>
                 <Grid item xs={4}>
                     <div className='user-logo'>
                         <UserIcon fill={userIconColor} />

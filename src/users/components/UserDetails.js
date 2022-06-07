@@ -6,7 +6,7 @@ import { formatDate, parsePhoneNumber } from "../../utils/utils"
 
 export default function UserDetails({user}) {
     return <AccordionDetails className='accordion-details'>
-        <Grid container style={{width:  "250px"}}>
+        <Grid container style={{width:  "300px", height: "190px"}}>
             <Grid item xs={4}/>
             <Grid item xs={8}>
                 <div className='userDetails'>
